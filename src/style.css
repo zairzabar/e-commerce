@@ -1,0 +1,58 @@
+:root {
+    --color-primary: rgb(33, 37, 41);
+    --text-primary: rgb(240, 248, 255);
+}
+
+* {
+    margin: 0;
+}
+
+.logo {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home {
+    background-color: var(--color-primary);
+    height: 15rem;
+    width: 100%;
+    flex-direction: column;
+}
+
+.container {
+    margin: 10px auto;
+}
+
+.display-1 {
+    color: var(--text-primary);
+}
+
+.card {
+    margin: 15px;
+}
+
+.rating {
+    color: gold;
+}
+
+.card-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer {
+    background: var(--color-primary);
+    color: var(--text-primary);
+}
+
+.footer p {
+    padding: 1rem;
+}
